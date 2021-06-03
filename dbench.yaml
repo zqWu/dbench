@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: dbench
-        image: longhornio/dbench:latest
+        image: dormi330/longhornio-dbench:v1.0
         imagePullPolicy: Always
         securityContext:
           # Need this for fio be able to invalid the cache
